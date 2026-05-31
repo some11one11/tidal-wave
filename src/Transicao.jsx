@@ -39,7 +39,7 @@ export default function AnimacaoMetades({ rodar }) {
 
   return (
     <div style={containerStyle}>
-      {/* Metade Superior: Entra imediatamente da direita para o meio, depois desaparece */}
+    
       <motion.div
         style={metadeSuperiorStyle}
         initial={{ x: '100vw', opacity: 1 }}
@@ -63,7 +63,7 @@ export default function AnimacaoMetades({ rodar }) {
         }
       />
 
-      {/* Metade Inferior: Aguarda 0.7s, entra da esquerda para o meio, depois desaparece */}
+   
       <motion.div
         style={metadeInferiorStyle}
         initial={{ x: '-100vw', opacity: 1 }}
